@@ -1,0 +1,10 @@
+
+CREATE DATABASE Transacciones
+
+CREATE TABLE Tarjeta(
+Id INT IDENTITY PRIMARY KEY,
+Titular VARCHAR(100),
+NumeroTrajeta VARCHAR(16),
+FechaExpiracion DATE,
+CVV VARCHAR(3)
+)
